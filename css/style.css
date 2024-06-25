@@ -5,6 +5,29 @@
     font-family: sans-serif;
 }
 
+.h-container {
+    height: 100px;
+    background-color: rgb(255, 136, 0);
+}
+
+.h-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 100px;
+    width: 1230px;
+}
+
+.h-col span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.h-row img {
+    height: 50px;
+}
+
 main {
     margin: 0 auto;
     width: 1902px;
@@ -56,3 +79,12 @@ main {
 .ex-price {
     text-decoration: line-through;
 }
+
+.f-container {
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+.f-row {}
+
+.f-col {}
