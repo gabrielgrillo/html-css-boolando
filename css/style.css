@@ -2,11 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 main {
     margin: 0 auto;
     width: 1902px;
+}
+
+.header {
+    text-align: center;
+    margin: 30px;
+    font-weight: bold;
+    padding-top: 20px;
 }
 
 .container {
@@ -18,14 +26,33 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    row-gap: 50px;
+    row-gap: 40px;
 }
 
 .col {
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.col-text {
+    border: 1px solid #efefef;
     padding: 10px;
 }
 
 .model {
     width: 396px;
+}
+
+.description {
+    font-weight: bold;
+}
+
+.discount {
+    font-weight: bolder;
+    color: red;
+}
+
+.ex-price {
+    text-decoration: line-through;
 }
