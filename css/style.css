@@ -42,7 +42,7 @@ main {
 
 .container {
     margin: 0 auto;
-    width: 80%;
+    max-width: 80%;
 }
 
 .row {
@@ -62,6 +62,8 @@ main {
     border: 1px solid #efefef;
     padding: 10px;
 }
+
+/* da usare larghezza in % per immagine flex */
 
 .model {
     width: 396px;
